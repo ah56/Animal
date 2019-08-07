@@ -10,12 +10,14 @@
   background-color: green;
   border: 10px solid black;
   margin: 2.5px;
+  text-align: center;
 }
 .animal1 img{
-width: 70%;
-flex-grow: 250px;
-border-radius: 20%;
-border: 2px solid red;
+  width: 70%;
+  flex-grow: 250px;
+  border-radius: 20%;
+  border: 2px solid red;
+
 }
 .animal1 ul{
   float: left;
@@ -28,6 +30,7 @@ border: 2px solid red;
   background-color: blue;
   border: 10px solid black;
   margin: 2.5px;
+  text-align: center;
 }
 .animal2 img{
 width: 70%;
@@ -35,6 +38,7 @@ flex-grow: 250px;
 border-radius: 20%;
 border: 2px solid purple;
 }
+
 .animal2 ul{
   float: left;
 
@@ -46,6 +50,7 @@ border: 2px solid purple;
   background-color: red;
   border: 10px solid black;
   margin: 2.5px;
+  text-align: center;
 }
 .animal3 img{
 width: 70%;
@@ -55,4 +60,26 @@ border: 2px solid green;
 }
 .animal3 ul{
   float: left;
+}
+body {
+background-color: pink;
+}
+@media screen and (max-width: 560px) {
+  .animal1{
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
+}@media screen and (max-width: 560px) {
+  .animal2{
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
+}@media screen and (max-width: 560px) {
+  .animal3{
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
 }
