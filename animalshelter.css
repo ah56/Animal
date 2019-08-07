@@ -1,0 +1,58 @@
+
+.whole{
+  flex-grow: 1000px;
+}
+
+.animal1{
+  width: 25%;
+  height: auto;
+  float: left;
+  background-color: green;
+  border: 10px solid black;
+  margin: 2.5px;
+}
+.animal1 img{
+width: 70%;
+flex-grow: 250px;
+border-radius: 20%;
+border: 2px solid red;
+}
+.animal1 ul{
+  float: left;
+
+}
+.animal2{
+  width: 25%;
+  height: auto;
+  float: left;
+  background-color: blue;
+  border: 10px solid black;
+  margin: 2.5px;
+}
+.animal2 img{
+width: 70%;
+flex-grow: 250px;
+border-radius: 20%;
+border: 2px solid purple;
+}
+.animal2 ul{
+  float: left;
+
+}
+.animal3{
+  width: 25%;
+  height: auto;
+  float: left;
+  background-color: red;
+  border: 10px solid black;
+  margin: 2.5px;
+}
+.animal3 img{
+width: 70%;
+flex-grow: 250px;
+border-radius: 20%;
+border: 2px solid green;
+}
+.animal3 ul{
+  float: left;
+}
